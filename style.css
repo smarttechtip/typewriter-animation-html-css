@@ -1,0 +1,28 @@
+.typewriter{
+    font-family: consolas;
+    font-size: 3em;
+    letter-spacing: 0.15em;
+
+    border-right: 0.15em solid;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: cursor 0.5s step-end infinite alternate;
+    animation: typing 2s ;
+}
+@keyframes cursor {
+    50%{
+        border-right: transparent;
+    }
+    
+}
+@keyframes typing {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.container{
+    display: inline-block;
+}
